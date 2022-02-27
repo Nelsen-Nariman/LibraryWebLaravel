@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.namaapp{
+    /* position: fixed;
+    z-index: 5; */
+    color: white;
+    font-weight: bold;
+    /* text-align: center; */
+    font-size: 50px;
+    /* padding: 20px;
+    width: 100%; */
+    /* margin-bottom: 150px; */
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* width: 100%; */
+}
+
+.namaapp-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    /* padding: 20px; */
+}
+
+.menu-1{
+    margin-right: 40px;
+}
+
+.menu-2{
+    margin-right: 25px;
+    color: #f79421;
+    text-decoration: underline;
+}
+
+.linked{
+    color: #f79421;
+    text-decoration: none;
+}
+
+.linked2{
+    color: white;
+    text-decoration: none;
+}
+
+
+.background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    height: 1000px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./imgBackground.jpg);
+}
+
+.kotak-gede{
+    
+    margin: 50px;
+    background: rgba(185, 183, 183, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 70%;
+    height: 500px;
+    padding: 50px;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.judul-1{
+    font-size: 47px;
+    font-weight: 600;
+}
+
+.judul-2{
+    font-size: 25px;
+}
+
+hr{
+    width: 80%;
+    background: rgba(243, 243, 243, 0.5);
+    border: solid 1px rgba(243, 243, 243, 0.5);
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-label1{
+    color: white;
+}
+
+
+
+
+
+
+/*contoh1*/
+/*support google chrome*/
+.form-control::-webkit-input-placeholder{
+	color: white;
+}
+ 
+/*support mozilla*/
+.form-control:-moz-input-placeholder{
+	color: white;
+}
+ 
+/*support internet explorer*/
+.form-control:-ms-input-placeholder{
+	color: white;
+}
+
+.gambar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control{
+    border-radius: 7px;
+    border: solid 4px #f79421;
+    background: transparent;
+    padding: 5px;
+}
+
+.date-dur{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+#movtra{
+    margin-top: 20px;
+}
+
+#desc{
+    margin-top: 20px;
+}
+
+.tombol{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#TombolCreate{
+    background-color: #f79421;
+    border: solid 4px #f79421;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* margin-left: -180px; */
+    /* margin-right: -170px; */
+}
+
+.balik{
+    color:#f79421;
+    border: solid 4px #f79421;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: -160px;
+    margin-right: 170px;
+    text-decoration: none;
+}
+
+/* input[type="text"]{
+    border:1px solid #D76062
+} */
+
+/* #Input2{
+    margin-top: 20px;
+} */

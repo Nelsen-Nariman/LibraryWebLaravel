@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.namaapp{
+    /* position: fixed;
+    z-index: 5; */
+    color: white;
+    font-weight: bold;
+    /* text-align: center; */
+    font-size: 50px;
+    /* padding: 20px;
+    width: 100%; */
+    /* margin-bottom: 150px; */
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* width: 100%; */
+}
+
+.namaapp-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    /* padding: 20px; */
+}
+
+.menu-1{
+    margin-right: 40px;
+}
+
+.linked{
+    color: white;
+    text-decoration: none;
+}
+
+.linked:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-2{
+    margin-right: 25px;
+    color: #f79421;
+    text-decoration: underline;
+}
+
+.isi{
+    color: white;
+}
+
+.tombolUpdate{
+    background-color: #f79421;
+    border: #f79421;
+}
+
+.tombolUpdate2{
+    background-color: red;
+    border: red;
+    color: white;
+}
+
+#Updated{
+    color: white;
+    text-decoration: none;
+}
